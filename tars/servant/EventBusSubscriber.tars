@@ -6,7 +6,7 @@ module winwin
         2 require string topic;
         3 require string eventName;
         4 require string payload;
-    }
+    };
     
     interface EventBusSubscriber
     {

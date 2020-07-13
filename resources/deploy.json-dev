@@ -3,7 +3,7 @@
     "server_name": "ApisixDiscoveryServer",
     "server_type": "tars_php",
     "template_name": "winwin.php",
-    "node_name": "172.19.0.3",
+    "node_name": "192.168.0.216",
     "enable_set": false,
     "set_name": "",
     "set_area": "",
@@ -13,8 +13,8 @@
     "adapters": [
         {
             "obj_name": "EventBusSubscriberObj",
-            "bind_ip": "172.19.0.3",
-            "port": 18102,
+            "bind_ip": "192.168.0.216",
+            "port": 10102,
             "port_type": "tcp",
             "protocol": "tars",
             "thread_num": 1,

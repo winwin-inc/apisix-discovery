@@ -7,6 +7,7 @@ return [
         'apisix' => [
             'admin_uri' => env("APISIX_ADMIN_URI"),
             'api_key' => env('APISIX_API_KEY'),
+            'debug' => env('APISIX_DEBUG_ENABLED') === 'true',
             'upstream_template' => [
                 "type" => "roundrobin",
                 "retries" => 2,

@@ -10,16 +10,22 @@
         "guzzlehttp/guzzle": "^7.0",
         "vlucas/phpdotenv": "^5.0",
         "wenbinye/tars": "^0.1",
-        "winwin/server-hook": "dev-master"
+        "winwin/server-hook": "^0.1"
     },
     "require-dev": {
         "kuiper/component-installer": "^0.1",
+        "phpunit/phpunit": "^8.5",
         "roave/security-advisories": "dev-master",
         "wenbinye/tars-gen": "^0.1"
     },
     "autoload": {
         "psr-4": {
             "winwin\\discovery\\apisix\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "winwin\\discovery\\apisix\\": "tests/"
         }
     },
     "scripts": {
@@ -61,11 +67,6 @@
                 }
             ],
             "serverName": "ApisixDiscoveryServer"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "winwin\\discovery\\apisix\\": "tests/"
         }
     }
 }
